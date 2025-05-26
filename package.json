@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development node src/app.mjs",
     "prod": "cross-env NODE_ENV=production node src/app.mjs",
-    "test": "cross-env NODE_ENV=test jest --coverage"
+    "test": "cross-env NODE_ENV=test jest"
   },
   "jest": {
     "transform": {
